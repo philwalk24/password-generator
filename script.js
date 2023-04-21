@@ -68,6 +68,10 @@ function writePassword()
     writePassword();
     return;
   }
+  if(input == false)
+  {
+    return;
+  }
   var passLength = input1;
 
   var up = window.prompt("Would you like uppercase characters? (y for yes, n for no)");
